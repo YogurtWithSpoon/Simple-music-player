@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.player__container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    padding:10px 10px 40px 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    box-shadow: 9px 13px 53px 14px rgba(0,0,0,0.24);
+}
+
+.player__title{
+    font-size: 50px;
+}
+.player{
+    padding-top:50px;
+    display:flex;
+    flex-direction: column;;
+    justify-content: center;
+}
+
+.player__info{
+    padding: 15px 0 30px 0;
+    font-size: 20px;
+}
+.player__artist{
+    display:block;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.player__status{
+    height:7px;
+    margin-top:15px;
+    margin-bottom:15px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color:white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.status__bar{
+    background: #717171a1;
+    width:1%;
+    height:100%;
+}
+
+.player__button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    padding: 20px 0;
+    outline: none;
+}
+
+.player__button button:focus, .player__button button:active{
+    outline:none;
+}
+
+#PlayerCover{
+    display:block;
+    width: 300px;
+    margin-bottom: 40px;
+    box-shadow: 0px 31px 30px -4px rgba(0,0,0,0.55);
+}
+
+.player__button button{
+    cursor: pointer;
+    color:#000;
+    font-size: 40px;
+    width:70px;
+    height:70px;
+    margin:15px;
+    background:none;
+    border:none;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;  
+    background: #ffffff;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background:white;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+  
+
+
